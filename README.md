@@ -6,8 +6,20 @@
  It includes a main Conversation Agent that routes tasks to specialized agents for
  skill gap analysis, job searching, and course recommendations.
 
+project structure
+- career_mate_agent.py --Run this file, call main function
+
 This program written in  VSCode.
-Create environment file and put below keys
+## Setup
+
+1. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Create a `.env` file with your OpenAI API key:
+
 
 API_KEY= "your api key" 
 BASE_URL= "https://models.github.ai/inference"
